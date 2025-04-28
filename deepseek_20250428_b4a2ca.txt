@@ -1,0 +1,29 @@
+/your-game/
+├── index.html          # Main menu
+├── charselect.html     # Character selection
+├── game.html           # Main game
+├── assets/
+│   ├── characters/
+│   │   ├── warrior/
+│   │   │   ├── idle.png
+│   │   │   ├── run.png
+│   │   │   ├── jump.png
+│   │   │   └── attack.png
+│   │   └── mage/
+│   │       └── ... (same file structure)
+│   ├── stages/
+│   │   ├── stage1.png
+│   │   └── stage2.png
+│   ├── ui/
+│   │   ├── title.png
+│   │   ├── healthbar.png
+│   │   └── buttons.png
+│   └── sounds/
+│       ├── music.mp3
+│       └── effects/
+├── js/
+│   ├── index.js        # Main menu logic
+│   ├── charselect.js   # Character selection logic
+│   └── game.js         # Game logic
+└── css/
+    └── style.css       # Shared styles
